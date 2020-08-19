@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>SOH Official</title>
+</head>
+<body style="background-image:url(3.png)">
+<tr><td><img src="6.png" width="100" height="100"|/>
+
+
+
+
+<form name =form>
+<script>
+	document.write("<center><font size=10>");
+	document.write("SOH Official Store");
+	document.write("<br><font size=2>");
+	document.write("www.Soh Official.com");
+	document.write("</hr>");
+	function proses()
+{
+	//harga
+	var namabarang=document.form.namabarang.value;
+	if(namabarang=="1.Soh.Zone") var Harga=50000;
+	if(namabarang=="2.Soh.Moon") var Harga=50000;
+	if(namabarang=="3.Soh.Zone 1.0") var Harga=50000;
+	if(namabarang=="4.Soh.Meca") var Harga=50000;
+	if(namabarang=="5.Soh.Alien") var Harga=50000;
+	if(namabarang=="6.Soh.R.H") var Harga=50000;
+	if(namabarang=="7.galaxy") var Harga=220000;
+	if(namabarang=="8.Soh.Jaket1") var Harga=225000;
+	if(namabarang=="9.Soh.Jaket2") var Harga=225000;
+	if(namabarang=="10.Soh.Jaket3") var Harga=225000;
+	if(namabarang=="11.Soh.Jaket4") var Harga=225000;
+	if(namabarang=="12.Soh.Jaket5") var Harga=225000;
+	if(namabarang=="13.Soh.Jaket6") var Harga=225000;
+	if(namabarang=="14.Soh.Jakest7") var Harga=225000;
+	if(namabarang=="15.Soh.Jaket8") var Harga=225000;
+	//ukuran
+	
+	if(document.form.ukuran[0].checked) var size=40;
+	if(document.form.ukuran[1].checked) var size=50;
+	if(document.form.ukuran[2].checked) var size=55;
+	if(document.form.ukuran[3].checked) var size=60;
+	var lebar=(size)+(10);
+	//
+	document.form.size.value=size;
+	document.form.lebar.value=lebar;
+	document.form.Harga.value=Harga;
+	
+	var Jumlah=document.form.Jumlah.value;
+	var Total=Harga*Jumlah;
+	document.form.Total.value=Total;
+}
+</script>
+<center>
+<hr><font size=6>TOKO
+<br>
+<font size=5>
+		<a href="java1.html">Beli</a>
+		<a href="java7.html">pilih itm</a>
+		<a href="bg.html">branda</a>
+<table width="1020" border="1" align="center">
+<tr>
+<td colspan="3"><img src="rh.png"width="1300" height="200"|/></td>
+</tr>
+<tr height="400">
+
+<td width="150"><br>
+		<table>
+		<tr height="50">
+		<td><img src="v.jpg"width="300" height="800"|/></td>
+		</td>
+		</tr>
+		
+		<table>
+		<tr height="50">
+	<tr><td>PLIH PRODUK
+	<td><select name=namabarang onchange="proses()">
+
+	<option><font size=10>1.Soh.Zone
+	<option><font size=10>2.Soh.Moon
+	<option><font size=10>3.Soh.Zone 1.0
+	<option><font size=10>4.Soh.Meca
+	<option><font size=10>5.Soh.Alien
+	<option><font size=10>6.Soh.R.h
+	<option><font size=10>7.galaxy
+	<option><font size=10>8.Soh.Jaket1
+	<option><font size=10>9.Soh.Jaket2
+	<option><font size=10>10.Soh.Jaket3
+	<option><font size=10>11.Soh.Jaket4
+	<option><font size=10>12.Soh.Jaket5
+	<option><font size=10>13.Soh.Jaket6
+	<option><font size=10>14.Soh.Jaket7
+	<option><font size=10>15.Soh.Jaket8
+	</select>
+
+<tr><td>JUMLAH<td><input type=text name=Jumlah size=10>
+<tr><td colspan=2><hr>
+
+</script>
+<center>
+<tr><td> Apabila tidak mencantumkan ukuran, akan di kirin ukuran acak
+<table>
+<tr><td>Size:
+<br> 
+<input type=radio name=ukuran>M
+<input type=radio name=ukuran>L
+<input type=radio name=ukuran>XL
+<input type=radio name=ukuran>XXL
+
+		</table>
+		</select>
+		<table>
+		<tr><td>Lebar<td><input type=text name=size size=4>
+		<br>
+		<tr><td>Panjang<td><input type=text name=lebar size=4>
+		<hr>
+		<tr><td>Harga<td><input type=text name=Harga size=10>
+		<tr><td>Total<td><input type=text name=Total size=10>
+		<hr>
+
+</table>
+<hr>
+<input type=button value=Beli onclick="proses()">
+<input type=Reset value=kosongkan>
+<hr>
+<br>
+<font size=2>
+<a href="https://www.google.com">Google</a>
+<a href="https://www.facebook.com">Facebook</a>
+<a href="https://www.youtube.com">YouTube</a>
+
+		
+		<tr height="350"><td><tr><td>
+		</table>
+		
+</td>
+<td width="824">
+<table border="1" align="center">
+<tr>
+<td><img src="a.jpg"width="300" height="300"|/></td>
+<td><img src="b.jpg"width="300" height="300"|/></td>
+<td><img src="c.jpg"width="300" height="300"|/></td>
+</tr>
+<tr>
+<td><img src="d.jpg"width="300" height="300"|/></td>
+<td><img src="e.jpg"width="300" height="300"|/></td>
+<td><img src="f.jpg"width="300" height="300"|/></td>
+</tr>
+<tr>
+<td><img src="g.jpg"width="300" height="300"|/></td>
+<td><img src="h.jpg"width="300" height="300"|/></td>
+<td><img src="i.jpg"width="300" height="300"|/></td>
+</tr>
+<tr>
+<td><img src="j.jpg"width="300" height="300"|/></td>
+<td><img src="k.jpg"width="300" height="300"|/></td>
+<td><img src="l.jpg"width="300" height="300"|/></td>
+</tr>
+<tr>
+<td><img src="m.jpg"width="300" height="300"|/></td>
+<td><img src="n.jpg"width="300" height="300"|/></td>
+<td><img src="o.jpg"width="300" height="300"|/></td>
+</tr>
+
+</table>
+<br>
+	
+
+			
+</script>
+</body>
+</html>
